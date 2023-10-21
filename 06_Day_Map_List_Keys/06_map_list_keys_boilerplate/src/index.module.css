@@ -1,0 +1,39 @@
+.header,
+.paragraph {
+  text-align: center;
+  margin-top: 20px;
+}
+.listWrapper {
+  padding: 0 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listEl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  padding: 0 160px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.even {
+  background-color: lightgreen;
+}
+.odd {
+  background-color: lightyellow;
+}
+.prime {
+  background-color: lightcoral;
+}
+
+.listElement {
+  width: 40px;
+  height: 40px;
+}
